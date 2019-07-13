@@ -21,7 +21,18 @@ footer ul {
     display: inline-block;
 }
 
+#footer ul li a:hover {
+    color: #5f6368;
+    text-decoration: underline;
+}
+
+footer ul li a:active, footer ul li a:visited, footer ul li a:link {
+    color: #5f6368;
+    text-decoration: none;
+}
+
 nav {
+    color: #000000;
     opacity: 0.75;
     font-size: 13px;
     position: fixed;
@@ -32,23 +43,31 @@ nav ul {
     display: inline-block;
 }
 
-/*
-#upper-left-ul {
+#nav ul li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
 
+nav ul li a:active, nav ul li a:visited, nav ul li a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+#upper-left-ul {
+    float: left;
 }
 
 #upper-right-ul {
-
+    float: right;
 }
 
 #bottom-left-ul {
-
+    float: left;
 }
 
 #bottom-right-ul {
-
+    float: right;
 }
-*/
 
 li {
     display: inline;
@@ -71,13 +90,13 @@ li {
     margin-top: 23px;
     border-radius: 50px;
     font-size: 16px;
-    width: 482px;
+    width: 582px;
     height: 42px;
     border: 1px solid #dfe1e5;
     background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
     background-repeat: no-repeat;
     background-size: 24px;
-    background-position: 96.5%;
+    background-position: 97.2%;
     text-indent: 20px;
 }
 
@@ -99,10 +118,11 @@ button {
 
 #button-1 {
     width: 127.406px;
-    margin: 30px 3px 11px 15px;
+    margin: 30px 4px 0px 0px;
 }
 
 #button-2 {
     width: 143.406px;
-    margin: 30px 0px 11px 4px;
+    margin: 30px 1px 0px 3px;
 }
+
