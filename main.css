@@ -15,10 +15,12 @@ footer {
     height: 40px;
     margin-left: -10px;
     font-size: 13px;
+    border-top: 1px solid #e4e4e4;
 }
 
 footer ul {
     display: inline-block;
+    margin-top: 12px;
 }
 
 #footer ul li a:hover {
@@ -41,6 +43,7 @@ nav {
 
 nav ul {
     display: inline-block;
+    padding-top: 2px;
 }
 
 #nav ul li a:hover {
@@ -69,8 +72,73 @@ nav ul li a:active, nav ul li a:visited, nav ul li a:link {
     float: right;
 }
 
+#blocks-img {
+    height: 16px;
+    width: 16px;
+}
+
+#about {
+    margin-left: -33px;
+}
+
+#store {
+    margin-left: -5px;
+}
+
+/* Currently Working Here */
+#sign-in-li {
+    margin-right: 28px;
+}
+
+#blocks-li {
+    margin-right: 0px;
+}
+
+#images {
+    margin-right: 0px;
+}
+
+#gmail {
+    margin-right: 0px;
+}
+
+#advertising {
+    margin-left: -18px;
+}
+
+#business {
+    margin-left: 3.5px;
+}
+
+#how-search-works {
+    margin-left: 3.5px;
+}
+
+#settings {
+    margin-right: 0px;
+}
+
+#terms {
+    margin-right: 0px;
+}
+
+#privacy {
+    margin-right: 0px;
+}
+
+#sign-in-button {
+    height: 32px;
+    width: 69.344px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 3px;
+    background-color: #2345fd;
+}
+
 li {
     display: inline;
+    padding: 0px 10px;
 }
 
 #search:hover {
@@ -125,4 +193,3 @@ button {
     width: 143.406px;
     margin: 30px 1px 0px 3px;
 }
-
