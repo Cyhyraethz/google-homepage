@@ -62,6 +62,7 @@ nav ul li a:active, nav ul li a:visited, nav ul li a:link {
 
 #upper-right-ul {
     float: right;
+    margin-top: 6px;
 }
 
 #bottom-left-ul {
@@ -72,11 +73,6 @@ nav ul li a:active, nav ul li a:visited, nav ul li a:link {
     float: right;
 }
 
-#blocks-img {
-    height: 16px;
-    width: 16px;
-}
-
 #about {
     margin-left: -33px;
 }
@@ -85,21 +81,36 @@ nav ul li a:active, nav ul li a:visited, nav ul li a:link {
     margin-left: -5px;
 }
 
-/* Currently Working Here */
+#sign-in-button {
+    height: 30px;
+    width: 69.344px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 3px;
+    background-color: rgb(18, 75, 175);
+}
+
 #sign-in-li {
     margin-right: 28px;
 }
 
-#blocks-li {
-    margin-right: 0px;
+#blocks-button {
+    height: 16px;
+    width: 16px;
+    margin-right: -2px;
+    border-radius: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUCAgL///8AAAC8vLxmZmY3NzcwMDDCwsLExMT7+/vV1dXv7+/c3NxRUVHo6Oi3t7d3d3eDg4M+Pj4qKipbW1sODg6SkpKBgYGJiYnX19d7e3urq6uhoaFLS0sZGRmZmZnNzc1sbGxgYGBDQ0MlJSUTExMdHR0yU8N+AAAERElEQVR4nO2d2XLiQAxFuxVssDFgwGwBEsj2/584ONs8uY3ujFW0ubcqefMpnQB5QFK3832Pq3/NqiRVZFGeWrnj7VGDTI/bcSvzVC40yKSafRvuVqLOJAsX86xHynMYmU30yNWuNsxFnDryFFTcAEyRTVDwCSlTcu8yRPDy7CBQzQhCOhkFmAOsTPFuD1YjRXM1CchMmpEF9kI42bsJ9qQLfGymaDUybWQ+o2VOLj/go2VjNUMQGXqblmiZK1Qw9EF8gJkPjUzsY+jgF9DFY4iHhhCThqahIcSkoWloCDFpaBoaQkwamoaGEJOGpqEhxKShaWgIMWloGhpCTBqahoYQk4amoSHEpKFpaAgxaWgaGkJMGpqGhhCThqahIcTsxLD/U1+r/z+5B46XdjW51//pyy4maFOQmTYj/2GCtospaHDAVIYBJj4F7XfQ1PlbcJJ9DjHnIWT2BjF39TZC/qEf86/stxHGlR75kf9slAwSTV7LPFxMXc96omJO1u0bJXm5UDEHPxslPQ8N4w8N4w8N4w8N4w8N4w8N4w8N4w8N4w8N4w8N4w8N48+9GE5PQ0Xy9i9vvc+KkQI5Klq+RP/MONeUeZr+Gs6W2m/LJ4HG05ffVv0N/LbNsVAfMrScfRmeRdvzuDywDxYzfVe3UUTem7uHdfZImefa8BFpW0nwPKAM6p3LKvQqjqAuoDx6B7YeZRWoZg72D0PtNawbL1K4Ddo+bm5ngk3XSznNLyI6/SBzt4QfbawmhycVmrt24NvCyfIOpk3QxGKIh4YQk4amoSHEpKFpaAgxaWgaGkJMGpqGhhCThqahIcSkoWloCDFpaBoaQkwamoaGEJOGpqEhxKShaWgIMWloGhpCTBqahoYQk4amoSHEpCFGRZ87mxqe8bm2/s8mQiPCLvj3vqn50sdOZoTBqdzgZbL4jPANzXm7Dua8N/Ws/ksHs/pqZM3sYFb/pe/7FvX/iu+dGc0uynB01c7MTsXcXbUzo1nDGQ7/7sz0OzSMPzSMPzSMPzSMPzSMPzSMPzSMPzSMPzSMPzSMPzSMP3diOBscVWfgX3WufqU5BH9RXXWuvuqs/uPvufpFB3cjHPRIOYSRGXI3QuFv6n6LbVAQv98C7B+eA9WAnbBgxw5rc9d3lMD3zAR6YQuQuWhGwrfz7O/grqD+3/fEU5Qan4zEEA8NISYNTUNDiElD09AQYtLQNDSEmDQ0DQ0hJg1NQ0OISUPT0BBi0tA0NISYNDQNDSEmDU1DQ4hJQ9PQEGLS0DQ0hJg0NA0NISYNTUNDiHlbZwxFYih3MLlX9Xz6supkgjYBmUkz8h8maP0TNl7c/Cb1/gROQZ8CTOxtKk/eeeigKEkDxXi/hqbO10FmipQpxec2gvqIIZFBB9sI4YOZfDbQI5fF90bJsExSRV63bYcoXeo5VBpkWh3aDxkqtq8aZFJ+Xujb/62gP9oMjdLEWHTHAAAAAElFTkSuQmCC');
 }
 
 #images {
-    margin-right: 0px;
+    margin-right: -1.5px;
 }
 
 #gmail {
-    margin-right: 0px;
+    margin-right: -8.5px;
 }
 
 #advertising {
@@ -115,25 +126,15 @@ nav ul li a:active, nav ul li a:visited, nav ul li a:link {
 }
 
 #settings {
-    margin-right: 0px;
+    margin-right: 18px;
 }
 
 #terms {
-    margin-right: 0px;
+    margin-right: 3.5px;
 }
 
 #privacy {
-    margin-right: 0px;
-}
-
-#sign-in-button {
-    height: 32px;
-    width: 69.344px;
-    color: white;
-    font-weight: 700;
-    font-size: 13px;
-    border-radius: 3px;
-    background-color: #2345fd;
+    margin-right: 3.5px;
 }
 
 li {
